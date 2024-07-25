@@ -105,11 +105,14 @@ Your journey will take you through the wildness of the American Midwest and acro
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Your answer here
+   > The value of drovers is the return value that the hireDrovers function returns.
+
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Your answer here
+   > The value of drovers is an array of objects. The value of drover starts as the first item in the array of drovers. As the loop runs and iterates over the drovers array, the value of drover changes to each iterated item of the drovers array.
+
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
-   > Your public Loom URL here
+   > [Your public Loom URL here](https://www.loom.com/share/9e2f653fd3704fdaaa2ae6517bc26773)
+
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
@@ -117,11 +120,13 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > Your answer here
+   > This for loop is used to push a value into an array a specified amount of times. forestNumber represents the "counter" or starting number, forestNumber < area.forests is the conditional that tells the for loop when to stop, and forestNumber++ is how much the forestNumber variable is incremented each time the for loop runs.
+
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Your answer here
+   > The value of database is an array of objects, cattleTypes, and it also has the value of another array of objects, drovers.
+
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > Your answer here
+   > herdSize is the parameter for the function hireDrovers. It gets its value from whatever is passed into hireDrovers whenever that function is called. herdSize is defining any variable inside the function that uses the name herdSize.
 
 
 ## Final Step
