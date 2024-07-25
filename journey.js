@@ -19,10 +19,9 @@ const createPlains = () => {
     const plains = Math.floor(Math.random() * 1) + 1
     return plains
 }
-
+//teest
 const journeyMaker = () => {
     const journey = []
-
     const areas = {
         rivers: createRivers(),
         forests: createForests(),
